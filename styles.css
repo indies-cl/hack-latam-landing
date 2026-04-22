@@ -300,6 +300,14 @@ body {
   background: rgba(245, 166, 35, 0.16);
   color: #fff;
 }
+.cd-cta--disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+.cd-cta--disabled:hover {
+  background: rgba(245, 166, 35, 0.04);
+  color: var(--amber-bright);
+}
 
 .panel__footer {
   width: 100%;
